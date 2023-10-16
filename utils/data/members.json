@@ -1,0 +1,66 @@
+{
+    "-MiBsfuTafbEQ7eAULxV" : {
+      "name" : "GHOSTY",
+      "firebaseKey" : "-MiBsfuTafbEQ7eAULxV",
+      "role" : "LA Thieves",
+      "image": "https://100thieves.com/cdn/shop/files/Ghosty.png?v=1693588342&width=500",
+      "uid": "yahW4tlwdLMYmoWEUgAx7Zg9VWN2",
+      "team_id": "-MiBuU13EaKmGOMjJF-X"
+    },
+    "-MiBt86VzkC-EGmJnxjm" : {
+      "name" : "CAMMY",
+      "firebaseKey" : "-MiBt86VzkC-EGmJnxjm",
+      "role" : "LA Thieves",
+      "image": "https://100thieves.com/cdn/shop/files/Cammy.png?v=1693588314&width=500",
+      "uid": "yahW4tlwdLMYmoWEUgAx7Zg9VWN2",
+      "team_id": "-MiBuU13EaKmGOMjJF-X"
+    },
+    "-MiBtwf1BwN9pGavQeR3" : {
+      "name" : "ASUNA",
+      "firebaseKey" : "-MiBtwf1BwN9pGavQeR3",
+      "role" : "Valorant",
+      "image": "https://100thieves.com/cdn/shop/files/Val_Headshots_6_b777e3b4-dacc-4364-9cd2-3601de49a2c3.jpg?v=1685657459&width=500",
+      "uid": "yahW4tlwdLMYmoWEUgAx7Zg9VWN2",
+      "team_id": "-MiBuU13EaKmGOMjJF-X"
+    },
+    "-MiBuOfHv9NCKB_cneij" : {
+      "name" : "DERREK",
+      "firebaseKey" : "-MiBuOfHv9NCKB_cneij",
+      "role" : "Angie",
+      "image": "https://100thieves.com/cdn/shop/files/Val_headshots_2.2_e7b2a79f-265d-452c-83d4-cebe9c7c1403.jpg?v=1685657417&width=500",
+      "uid": "yahW4tlwdLMYmoWEUgAx7Zg9VWN2",
+      "team_id": "-MiBuU13EaKmGOMjJF-X"
+    },
+    "-MiBulenBnY8by9Xn7q1" : {
+      "name" : "DOUBLELIFT",
+      "firebaseKey" : "-MiBulenBnY8by9Xn7q1",
+      "role" : "League of Legends",
+      "image": "https://100thieves.com/cdn/shop/files/LoL_Headshot_5_fec52678-dcc9-4835-88b5-8b5d766a9fef.jpg?v=1685657656&width=500",
+      "uid": "yahW4tlwdLMYmoWEUgAx7Zg9VWN2",
+      "team_id": "-MiBuU13EaKmGOMjJF-X"
+    },
+    "-MiBv9_aOEJQWoobjz_U" : {
+      "name" : "VAXLON",
+      "firebaseKey" : "-MiBv9_aOEJQWoobjz_U",
+      "role" : "Apex Legends",
+      "image": "https://100thieves.com/cdn/shop/files/vaxlon.jpg?v=1690296295&width=500",
+      "uid": "yahW4tlwdLMYmoWEUgAx7Zg9VWN2",
+      "team_id": "-MiBuU13EaKmGOMjJF-X"
+    },
+    "-MiBvQiWr6XNwNa1i3-0" : {
+      "name" : "SCUWRY",
+      "firebaseKey" : "-MiBvQiWr6XNwNa1i3-0",
+      "role" : "Apex Legends",
+      "image": "https://100thieves.com/cdn/shop/files/scurwy.jpg?v=1690296295&width=500",
+      "uid": "yahW4tlwdLMYmoWEUgAx7Zg9VWN2",
+      "team_id": "-MiBuU13EaKmGOMjJF-X"
+    },
+    "-MiBw4tCvNZd23yTVDQw" : {
+      "name" : "ONMUU",
+      "firebaseKey" : "-MiBw4tCvNZd23yTVDQw",
+      "role" : "Apex Legends",
+      "image": "https://100thieves.com/cdn/shop/files/onmuu.jpg?v=1690296295&width=500",
+      "uid": "yahW4tlwdLMYmoWEUgAx7Zg9VWN2",
+      "team_id": "-MiBuU13EaKmGOMjJF-X"
+    }
+  }
