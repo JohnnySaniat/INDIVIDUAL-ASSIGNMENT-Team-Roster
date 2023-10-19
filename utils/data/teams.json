@@ -5,6 +5,34 @@
     "firebaseKey" : "-MiBuU13EaKmGOMjJF-X",
     "mission" : "TO GIVE EVERY GAMER SOMETHING TO BE PROUD OF.",
     "team_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/100_Thieves_logo.svg/1200px-100_Thieves_logo.svg.png",
-    "uid": "yahW4tlwdLMYmoWEUgAx7Zg9VWN2"
+    "uid": "yahW4tlwdLMYmoWEUgAx7Zg9VWN2",
+    "private": true
+  },
+
+  "-LiBuU13EaKmGOMjJF-Y" : {
+    "team_name" : "Team Liquid",
+    "firebaseKey" : "-LiBuU13EaKmGOMjJF-Y",
+    "mission" : "To gather a passionate, welcoming and quirky global community of fans, built on the foundation of competitive gaming, promoting curiosity, creativity, mastery and kindness, where the peculiarly passionate are celebrated and inspired through the ultimate fandom experience.",
+    "team_image": "https://www.sponsoo.com/uploads/profile-images/logo/team-liquid-766a5958482d81bac6385ec44f745e8c.png",
+    "uid": "yahW4tlwdLMYmoWEUgAx7Zg9VWN2",
+    "private": false
+  },
+
+  "-BiBuU13EaKmGOMjJF-Z" : {
+    "team_name" : "NIP",
+    "firebaseKey" : "-BiBuU13EaKmGOMjJF-Z",
+    "mission" : "To bring gaming culture to a world without boundaries.",
+    "team_image": "https://yt3.googleusercontent.com/ytc/APkrFKbif20AylK4WtJOXvPdOMFZnOSw5rtQ-G4uwNqZ7w=s900-c-k-c0x00ffffff-no-rj",
+    "uid": "yahW4tlwdLMYmoWEUgAx7Zg9VWN2",
+    "private": true
+  },
+
+  "-PiBuU13EaKmGOMjJF-A" : {
+    "team_name" : "FAZE",
+    "firebaseKey" : "-PiBuU13EaKmGOMjJF-A",
+    "mission" : "To inspire the next generation in making their dreams a reality",
+    "team_image": "https://variety.com/wp-content/uploads/2021/10/FazeClan-SPAC-Deal.png",
+    "uid": "yahW4tlwdLMYmoWEUgAx7Zg9VWN2",
+    "private": false
   }
 }
