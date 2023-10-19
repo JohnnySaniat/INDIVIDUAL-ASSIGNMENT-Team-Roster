@@ -34,3 +34,9 @@ p.card-text {
 a.navbar-brand {
   font-size: 30px;
 }
+
+#profile-page {
+  display: flex;
+  align-items: center;
+  color: white;
+}

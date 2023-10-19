@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-duplicate-props */
 import React, { useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import PropTypes from 'prop-types';
@@ -5,22 +6,24 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import { Button } from 'react-bootstrap';
 import { useAuth } from '../../utils/context/authContext';
-import { createMember, updateMember, getMembers } from '../../api/membersData';
+import { createMember, updateMember } from '../../api/membersData';
+import { getTeams } from '../../api/teamData';
 
 const initialState = {
   name: '',
   image: '',
   role: '',
+  team_name: '',
 };
 
 function MemberForm({ obj }) {
   const [formInput, setFormInput] = useState(initialState);
-  const [setMembers] = useState([]);
+  const [teams, setTeams] = useState([]);
   const router = useRouter();
   const { user } = useAuth();
 
   useEffect(() => {
-    getMembers(user.uid).then(setMembers);
+    getTeams(user.uid).then(setTeams);
 
     if (obj.firebaseKey) setFormInput(obj);
   }, [obj, user]);
@@ -87,6 +90,44 @@ function MemberForm({ obj }) {
           required
         />
       </FloatingLabel>
+
+      {/* TEAM SELECT */}
+      <FloatingLabel controlId="floatingSelect" label="Team">
+        <Form.Select
+          aria-label="Team"
+          name="team_id"
+          onChange={handleChange}
+          className="mb-3"
+          value={formInput.team_id}
+          required
+        >
+          <option value="">Select a Team</option>
+          {
+            teams.map((team) => (
+              <option
+                key={team.firebaseKey}
+                value={team.firebaseKey}
+              >
+                {team.team_name}
+              </option>
+            ))
+          }
+        </Form.Select>
+
+        {/* TEAM INPUT  */}
+        <FloatingLabel controlId="floatingInput3" label="Type the Team Name to Confirm Roster Add" className="mb-3">
+          <Form.Control
+            type="text"
+            placeholder="Type Team Name to Confirm"
+            name="team_name"
+            value={formInput.team_name}
+            onChange={handleChange}
+            required
+          />
+        </FloatingLabel>
+      </FloatingLabel>
+
+      {/* SUBMIT BUTTON  */}
       <Button type="submit">{obj.firebaseKey ? 'Update' : 'Create'} Member</Button>
     </Form>
   );
@@ -98,6 +139,8 @@ MemberForm.propTypes = {
     image: PropTypes.string,
     name: PropTypes.string,
     firebaseKey: PropTypes.string,
+    team_id: PropTypes.string,
+    team_name: PropTypes.node,
   }),
 };
 
